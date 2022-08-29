@@ -1,0 +1,63 @@
+
+
+body{
+    background-image: url("writer.jpg");
+    background-color: cyan; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 10px;
+}
+
+.container{
+    background: rgb(241, 229, 229);
+   max-width: 70%;
+   max-height: 50%;
+    margin: auto;
+   border: 3px solid rgb(180, 161, 161);
+   border-radius: 15px;
+   align-content: center;
+   box-shadow: burlywood;
+}
+h1 {
+    font-family: "cursive";
+    margin-top: 15px;
+    margin-bottom: 10px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+
+#increment-btn {
+    background: rgb(138, 23, 231);
+    flex: center;
+    border-style: outset;
+    border-color: rgb(146, 91, 201);
+    align-content: center;
+}
+
+#save-btn {
+    background: rgb(9, 12, 226);
+   flex: center;
+   border-style: outset;
+   border-color: rgb(78, 78, 207);
+}
